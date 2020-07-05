@@ -28,5 +28,5 @@ Refactored script shortened more than 1.0 second of execution time for timers in
 ### Procs and Cons Of Refactoring Code
 Refactoring code improved the codebase in its design, structure and functionality. It is faster to execute and is more clear, and simple in design. 
 However, refactoring code is time-consuming and risky. It is also very easy to make mistakes and introduce bugs. 
-
-In the refactored script, we used the tickerIndex as the index when accessing the arrays, and initialized the tickerVolume to zero. Then, we used the tickerIndex variable as an index to increase the colume of the current tickerVolumes. Compared to the priginal script, these steps are faster. However, the original code is more strauight forward. When writing the refactoring code, 
+### Pros and Cons Of The Original and Refactored Script
+In the refactored script, we used the tickerIndex as the index when accessing the arrays, and initialized the tickerVolume to zero. Then, we used the tickerIndex variable as an index to increase the column of the current tickerVolumes. Compared to the original script, these steps are faster and more concise, while they are also easier to maintain and debug. As a result, it takes shorter time to run the refactored script as shown above. 
