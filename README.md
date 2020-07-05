@@ -8,21 +8,24 @@ The purpose of this analysis is to help Steve pick a green stock based on its pa
 ## Results
 
 ### Stock Performance
-![2017StockPerformance](2017_Stock_Performance.png)
-![2018StockPerformance](2018_Stock_Performance.png)
+![2017 Stock Performance](Resources2/2017_Stock_Performance.png)  
 
-As we can see from the tables, in 2018, most stocks are losing as compared to their return in 2017. The only two stocks that are continuing winning are the ones in green in both tables.These stocks are the ENPH and RUN. DQ's return in 2017 and 2018 has the biggest difference. In VBA, we used the formula *Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1* to calculate percentage of return.
+![2018 Stock Performance](Resources2/2018_Stock_Performance.png)
+
+<br />As we can see from the tables, in 2018, most stocks are losing as compared to their return in 2017. The only two stocks that are continuing winning are the ones in green in both tables.These stocks are the ENPH and RUN. DQ's return in 2017 and 2018 has the biggest difference. In VBA, we used the formula *Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1* to calculate percentage of return.
 
 ### Execution Times
-Original Script
-![2017OriginalTimer](2017_Original_Timer.png)
-![2018OriginalTimer](2018_Original_Timer.png)
+#### Original Script  
+![2017 Original Timer](Resources2/2017_Original_Timer.png)  
 
-Refactored Script
-![VBAChallenge2017](VBA_Challenge_2017.png)
-![VBAChallenge2018](VBA_Challenge_2018.png)
+![2018 Original Timer](Resources2/2018_Original_Timer.png)  
 
-Refactored script shortened more than 1.0 second of execution time for timers in both year values.
+#### Refactored Script  
+![VBA Challenge 2017](Resources2/VBA_Challenge_2017.png)    
+
+![VBA Challenge 2018](Resources2/VBA_Challenge_2018.png)  
+
+<br />Refactored script shortened more than 1.0 second of execution time for timers in both year values.
 
 ## Summary
 ### Procs and Cons Of Refactoring Code
